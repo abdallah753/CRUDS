@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: #ffffffdb;
+}
+
+body {
+    font-family: Arial, Tahoma, sans-serif;
+    background-color: rgba(0, 0, 0, 0.86);
+}
+
+.contaner {
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+    margin: 10px auto;
+}
+
+.titel {
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 8px;
+}
+
+.titel p {
+    margin-bottom: 9px;
+}
+
+.name {
+    width: 100%;
+}
+
+.name input {
+    width: 100%;
+    padding: 7px;
+    padding-left: 5px;
+}
+
+.count input {
+    width: 100%;
+}
+
+.catig input {
+    width: 100%;
+}
+
+.creat {
+    width: 100%;
+}
+
+.creat input {
+    padding: 7px 0;
+    margin: 0 0 7px;
+    border-radius: 5px;
+    background-color: #009688;
+    width: 100%;
+    cursor: pointer;
+}
+
+.search {
+    width: 100%;
+}
+
+.search input {
+    width: 100%;
+}
+
+.delet {
+    width: 100%;
+    text-align: center;
+}
+
+.delet .pdelete {
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    background-color: #009688;
+    padding: 6px 0;
+    cursor: pointer;
+}
+
+.delet table {
+    width: 100%;
+    margin: 8px 0;
+}
+
+.delet table td {
+    padding: 5px 0;
+    border-bottom: 2px solid rgba(222, 222, 222, 0.337);
+}
+
+.delet table th {
+    border-top: 2px solid rgba(222, 222, 222, 0.337);
+    border-bottom: 2px solid rgba(222, 222, 222, 0.337);
+    padding: 3px 0;
+    width: calc(98% / 10);
+    margin: 5px 0;
+}
+
+button {
+    background-color: #ff0000d6;
+    width: 60px;
+    height: 19px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+input {
+    padding: 7px;
+    padding-left: 12px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.904);
+}

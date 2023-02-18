@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/vv.css">
+</head>
+
+<body>
+    <div class="contaner">
+        <div class="titel">
+            <h1>CRUDS</h1>
+            <p> CREAT READ UPDATE DELETE SEARCH</p>
+        </div>
+        <div class="name">
+            <input type="text" placeholder="Name Of Product" required>
+        </div>
+        <div class="price">
+            <input onkeyup="getTotal()" id="ino" class="pric" type="number" placeholder="price">
+            <input onkeyup="getTotal()" class="taxes" type="number" placeholder="Taxes">
+            <input onkeyup="getTotal()" class="ads" type="number" placeholder="ADS">
+            <input onkeyup="getTotal()" class="discount" type="number" placeholder="Discount">
+            <span>Total:<span class="total"></span></span>
+        </div>
+        <div class="catig">
+            <input type="text" placeholder="Catigory">
+        </div>
+        <div class="count">
+            <input type="number" maxlength="3" placeholder="Count">
+        </div>
+        <div class="creat">
+            <input form="ino" type="submit" value="Creat">
+        </div>
+        <div class="search">
+            <input onkeyup="search()" type="text" placeholder="Search By Catigory">
+        </div>
+        <div class="delet">
+            <p class="pdelete"> Delete all (<span class="spancount"></span>)</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>NAME</th>
+                        <th>PRICE</th>
+                        <th>TAXES</th>
+                        <th>ADS</th>
+                        <th>DISCOUNT</th>
+                        <th>TOTAL</th>
+                        <th>CATEGORY</th>
+                        <th>UPDATE</th>
+                        <th>DELETE</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="/main.js"></script>
+</body>
+
+</html>
